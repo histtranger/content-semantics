@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-
 <head>
+  <meta charset="utf-8">
+  <title>HTML template</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+<header>
     <h1>Beetroot <i>(Beta vulgaris)</i></h1>
     <nav>
         <ol>
@@ -10,9 +16,8 @@
             <li>Tags</li>
         </ol>
     </nav>
-</head>
+</header>
 
-<body>
   <figure>
     <img src="images/beets.jpg" alt="I don't like beets.">
     <figcaption>A bundle of organic beets from a local farm foor co-op program.</figcaption>
@@ -26,7 +31,7 @@
   <p> In fact, <cite>Jim Halpert</cite> once said this about beets, <q>"Fact, bears eat
     beets. Bears, beets, <i>Battlestar Galactica</i>".</q></p>
 
-  <blockquote>I have some <em>weird<em> habits. For instance, <strong>I love beets.</strong>
+  <blockquote>I have some <em>weird</em> habits. For instance, <strong>I love beets.</strong>
     Show me a salad car and I will clean them out of their beets.</blockquote>
   <cite>- Chris Pratt</cite>
 
@@ -39,26 +44,24 @@
     </ol>
 
   <h2>Nutritional Information</h2>
-    <p>Serving Size:<data>100 g</data></p>
+    <p>Serving Size:<data value="g">100 g</data></p>
     <dl>
-      <li>Energy: <data>180 kJ</data></li>
-      <li>Carbs: <data>9.96 g</data></li>
-      <li>Fat: <data>0.18 g</data></li>
-      <li>Protein: <data>1.68 g</data></li>
+      <dt>Energy:</dt> <dd><data value="...">180 kJ</data></dd>
+      <dd>Carbs: <data value="g">9.96 g</data></dd>
+      <dd>Fat: <data value="g">0.18 g</data></dd>
+      <dd>Protein: <data value="...">1.68 g</data></dd>
     </dl>
 
+    <footer>
+      <h2>Tags</h2>
+        <ul>
+          <li>Crimson</li>
+          <li>Awesome</li>
+          <li>Pickle-able</li>
+          <li>Vegetable!</li>
+          <li>Delicious</li>
+        </ul>
+      <p>Source:<a href="https://en.wikipedia.org/wiki/Carrot">Wikipedia</a>; Last modified: <time>Aug 30, 2014</time></p>
+    </footer>
+
 </body>
-
-<footer>
-  <h2>Tags</h2>
-    <ul>
-      <li>Crimson</li>
-      <li>Awesome</li>
-      <li>Pickle-able</li>
-      <li>Vegetable!</li>
-      <li>Delicious</li>
-    </ul>
-  <p>Source:<a href="https://en.wikipedia.org/wiki/Carrot">Wikipedia</a>; Last modified:<time>
-    Aug 30, 2014</time></p>
-
-</footer>
